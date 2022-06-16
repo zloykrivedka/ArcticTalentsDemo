@@ -1,0 +1,55 @@
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 -10px;
+}
+
+.categories .category {
+    display: flex;
+    flex-direction: column;
+    flex: none;
+    width: 445px;
+    height: 578px;
+    margin: 0 10px 10px;
+    padding: 40px;
+    box-sizing: border-box;
+
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.categories .category label {
+    flex: none;
+    min-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.categories .category .imageBackground {
+    flex: 1;
+
+    background: url("../img/defaultCategoryBackground.png") center no-repeat;
+}
+
+.categories .category a.button {
+    flex: none;
+    display: block;
+    height: 70px;
+    padding: 26px 25px;
+    box-sizing: border-box;
+
+    text-align: center;
+    background: #FFE6DC;
+    color: #FF5B15;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.categories .category a.button:hover {
+    background: #FFAD8A;
+    color: #AC3C0C;
+}

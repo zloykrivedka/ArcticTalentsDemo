@@ -1,0 +1,96 @@
+:root {
+    --footer-text-color: #ffffff
+}
+
+.footer {
+    padding: 43px 40px 50px;
+}
+
+.footer .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+.footer .wrapper .infoPanel .infoLinks {
+    column-count: 3;
+    flex: 1;
+}
+
+.footer .wrapper .infoPanel .infoLinks .infoLink {
+    display: block;
+    max-width: 175px;
+
+    margin-bottom: 10px;
+
+    text-decoration: none;
+    color: var(--footer-text-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer .wrapper .infoPanel .copyrightInfo {
+    flex: none;
+    width: 100%;
+
+    margin-top: 20px;
+
+    text-decoration: none;
+    color: var(--footer-text-color);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer .wrapper .subscriptionPanel {
+    flex: 0 1 450px;
+}
+
+.footer .wrapper .subscriptionPanel form fieldset  label {
+    display: block;
+    margin-bottom: 20px;
+
+    color: var(--footer-text-color);
+    font-weight: 600;
+}
+
+.footer .wrapper .subscriptionPanel form fieldset .subscriptionInputWrapper {
+    display: flex;
+
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.footer .wrapper .subscriptionPanel form fieldset .subscriptionInputWrapper input {
+    flex: 1;
+    height: 50px;
+    padding: 0 24px;
+
+    border: none;
+    box-sizing: border-box;
+}
+
+.footer .wrapper .subscriptionPanel form fieldset .subscriptionInputWrapper input:focus,
+.footer .wrapper .subscriptionPanel form fieldset .subscriptionInputWrapper input:active {
+    outline: none;
+}
+
+.footer .wrapper .subscriptionPanel form fieldset .subscriptionInputWrapper button {
+    /*hide text*/
+    font-size: 0;
+    flex: none;
+
+    display: block;
+    width: 62px;
+    height: 50px;
+
+    border: none;
+    background: #2F87FF url("../img/actionSubscription.svg") center no-repeat;
+    cursor: pointer;
+}
+
+
+
+
+
